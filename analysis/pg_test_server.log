@@ -1,0 +1,27 @@
+2026-10-13 13:23:24.064 GMT [27476] LOG:  skipping missing configuration file "D:/DemoExam/analysis/pg_test_data/postgresql.auto.conf"
+postgres: could not find the database system
+Expected to find it in the directory "D:/DemoExam/analysis/pg_test_data",
+but could not open file "D:/DemoExam/analysis/pg_test_data/global/pg_control": No such file or directory
+2026-10-13 16:24:03.388 MSK [24296] LOG:  starting PostgreSQL 17.11 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit
+2026-10-13 16:24:03.388 MSK [24296] LOG:  listening on IPv4 address "127.0.0.1", port 55439
+2026-10-13 16:24:03.427 MSK [24496] LOG:  database system was shut down at 2026-10-13 16:23:31 MSK
+2026-10-13 16:24:03.447 MSK [24296] LOG:  database system is ready to accept connections
+2026-10-13 16:27:43.881 MSK [16992] WARNING:  there is already a transaction in progress
+2026-10-13 16:27:45.674 MSK [3176] ERROR:  new row for relation "stock_items" violates check constraint "stock_items_quantity_available_check"
+2026-10-13 16:27:45.674 MSK [3176] DETAIL:  Failing row contains (1, 1, 3, -1).
+2026-10-13 16:27:45.674 MSK [3176] STATEMENT:  UPDATE stock_items SET quantity_available=-1 WHERE stock_item_id=1
+2026-10-13 16:29:03.342 MSK [10772] LOG:  checkpoint starting: time
+2026-10-13 16:29:03.808 MSK [10772] LOG:  checkpoint complete: wrote 6 buffers (12.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.321 s, sync=0.139 s, total=0.467 s; sync files=343, longest=0.007 s, average=0.001 s; distance=5089 kB, estimate=5089 kB; lsn=0/1A6C7F0, redo lsn=0/1A6C760
+2026-10-13 17:32:55.746 MSK [18228] WARNING:  there is already a transaction in progress
+2026-10-13 17:32:57.487 MSK [3380] ERROR:  new row for relation "stock_items" violates check constraint "stock_items_quantity_available_check"
+2026-10-13 17:32:57.487 MSK [3380] DETAIL:  Failing row contains (1, 1, 3, -1).
+2026-10-13 17:32:57.487 MSK [3380] STATEMENT:  UPDATE stock_items SET quantity_available=-1 WHERE stock_item_id=1
+2026-10-13 17:34:03.912 MSK [10772] LOG:  checkpoint starting: time
+2026-10-13 17:34:04.097 MSK [10772] LOG:  checkpoint complete: wrote 1 buffers (2.0%); 1 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.127 s, total=0.186 s; sync files=333, longest=0.006 s, average=0.001 s; distance=4793 kB, estimate=5059 kB; lsn=0/1F1AC58, redo lsn=0/1F1AC00
+2026-10-13 17:34:50.568 MSK [24296] LOG:  received fast shutdown request
+2026-10-13 17:34:50.569 MSK [24296] LOG:  aborting any active transactions
+2026-10-13 17:34:50.574 MSK [24296] LOG:  background worker "logical replication launcher" (PID 8576) exited with exit code 1
+2026-10-13 17:34:50.574 MSK [10772] LOG:  shutting down
+2026-10-13 17:34:50.575 MSK [10772] LOG:  checkpoint starting: shutdown immediate
+2026-10-13 17:34:50.583 MSK [10772] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.009 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=4553 kB; lsn=0/1F1AD08, redo lsn=0/1F1AD08
+2026-10-13 17:34:50.588 MSK [24296] LOG:  database system is shut down

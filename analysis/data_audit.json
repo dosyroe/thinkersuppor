@@ -1,0 +1,300 @@
+{
+  "counts": {
+    "files": 42,
+    "products": 31,
+    "sizes": 35,
+    "users": 20,
+    "stock_items": 92,
+    "orders": 10,
+    "order_lines": 30,
+    "available_pairs": 1274,
+    "ordered_pairs": 36
+  },
+  "categories": {
+    "Детская обувь": 9,
+    "Женская обувь": 13,
+    "Мужская обувь": 9
+  },
+  "roles": {
+    "Администратор": 4,
+    "Менеджер": 7,
+    "Авторизованный пользователь": 9
+  },
+  "issues": [
+    {
+      "file": "Stock_Items",
+      "row": 50,
+      "kind": "model_name_mismatch",
+      "source": "Туфли женские натуральная кожа с металлическими вставками",
+      "target": "Туфли женские натуральная кожа с металлическими вставками"
+    },
+    {
+      "file": "Stock_Items",
+      "row": 51,
+      "kind": "model_name_mismatch",
+      "source": "Туфли женские натуральная кожа с металлическими вставками",
+      "target": "Туфли женские натуральная кожа с металлическими вставками"
+    },
+    {
+      "file": "Stock_Items",
+      "row": 52,
+      "kind": "model_name_mismatch",
+      "source": "Туфли женские натуральная кожа с металлическими вставками",
+      "target": "Туфли женские натуральная кожа с металлическими вставками"
+    },
+    {
+      "file": "Stock_Items",
+      "row": 53,
+      "kind": "model_name_mismatch",
+      "source": "Туфли женские натуральная кожа с металлическими вставками",
+      "target": "Туфли женские натуральная кожа с металлическими вставками"
+    },
+    {
+      "file": "Stock_Items",
+      "row": 72,
+      "kind": "model_name_mismatch",
+      "source": "Кроссовки «Азимут Бег»",
+      "target": "Кроссовки «Азимут Бег»"
+    },
+    {
+      "file": "Stock_Items",
+      "row": 73,
+      "kind": "model_name_mismatch",
+      "source": "Кроссовки «Азимут Бег»",
+      "target": "Кроссовки «Азимут Бег»"
+    },
+    {
+      "file": "Stock_Items",
+      "row": 74,
+      "kind": "model_name_mismatch",
+      "source": "Кроссовки «Азимут Бег»",
+      "target": "Кроссовки «Азимут Бег»"
+    },
+    {
+      "file": "Stock_Items",
+      "row": 75,
+      "kind": "model_name_mismatch",
+      "source": "Кроссовки «Азимут Бег»",
+      "target": "Кроссовки «Азимут Бег»"
+    },
+    {
+      "file": "Stock_Items",
+      "row": 76,
+      "kind": "model_name_mismatch",
+      "source": "Кроссовки «Азимут Бег»",
+      "target": "Кроссовки «Азимут Бег»"
+    },
+    {
+      "file": "Stock_Items",
+      "row": 77,
+      "kind": "model_name_mismatch",
+      "source": "Кроссовки «Азимут Бег»",
+      "target": "Кроссовки «Азимут Бег»"
+    },
+    {
+      "file": "Stock_Items",
+      "row": 81,
+      "kind": "model_name_mismatch",
+      "source": "Черные туфли в классическом стиле",
+      "target": "Черные туфли в классическом стиле — база для деловых образов"
+    },
+    {
+      "file": "Stock_Items",
+      "row": 82,
+      "kind": "model_name_mismatch",
+      "source": "Черные туфли в классическом стиле",
+      "target": "Черные туфли в классическом стиле — база для деловых образов"
+    },
+    {
+      "file": "Stock_Items",
+      "row": 83,
+      "kind": "model_name_mismatch",
+      "source": "Черные туфли в классическом стиле",
+      "target": "Черные туфли в классическом стиле — база для деловых образов"
+    },
+    {
+      "file": "Orders",
+      "row": 9,
+      "kind": "model_name_mismatch",
+      "source": "Туфли женские натуральная кожа с металлическими вставками",
+      "target": "Туфли женские натуральная кожа с металлическими вставками"
+    },
+    {
+      "file": "Orders",
+      "row": 16,
+      "kind": "model_name_mismatch",
+      "source": "Кроссовки «Азимут Бег»",
+      "target": "Кроссовки «Азимут Бег»"
+    },
+    {
+      "file": "Orders",
+      "row": 17,
+      "kind": "model_name_mismatch",
+      "source": "Черные туфли в классическом стиле",
+      "target": "Черные туфли в классическом стиле — база для деловых образов"
+    },
+    {
+      "file": "Orders",
+      "row": 24,
+      "kind": "model_name_mismatch",
+      "source": "Кроссовки «Азимут Бег»",
+      "target": "Кроссовки «Азимут Бег»"
+    }
+  ],
+  "low_stock_models": [
+    {
+      "name": "Женские босоножки «Черный кофе» со скульптурным каблуком",
+      "manufacturer": "Кожевенные традиции",
+      "quantity": 3
+    },
+    {
+      "name": "Туфли из натуральной кожи",
+      "manufacturer": "Берестов",
+      "quantity": 3
+    },
+    {
+      "name": "Ботинки мужские демисезонные",
+      "manufacturer": "Барбари",
+      "quantity": 2
+    }
+  ],
+  "missing_images": [],
+  "orders_by_month": {
+    "2026-04": 8,
+    "2026-05": 2
+  },
+  "orders": [
+    {
+      "id": 1,
+      "date": "2026-04-02",
+      "lines": 2,
+      "pairs": 2,
+      "total": 4980
+    },
+    {
+      "id": 2,
+      "date": "2026-04-05",
+      "lines": 2,
+      "pairs": 2,
+      "total": 32500
+    },
+    {
+      "id": 3,
+      "date": "2026-04-08",
+      "lines": 3,
+      "pairs": 3,
+      "total": 33360
+    },
+    {
+      "id": 4,
+      "date": "2026-04-12",
+      "lines": 5,
+      "pairs": 5,
+      "total": 50992
+    },
+    {
+      "id": 5,
+      "date": "2026-04-18",
+      "lines": 3,
+      "pairs": 3,
+      "total": 38957
+    },
+    {
+      "id": 6,
+      "date": "2026-04-22",
+      "lines": 3,
+      "pairs": 3,
+      "total": 54806
+    },
+    {
+      "id": 7,
+      "date": "2026-04-25",
+      "lines": 3,
+      "pairs": 4,
+      "total": 10360
+    },
+    {
+      "id": 8,
+      "date": "2026-04-28",
+      "lines": 3,
+      "pairs": 6,
+      "total": 62395
+    },
+    {
+      "id": 9,
+      "date": "2026-05-05",
+      "lines": 2,
+      "pairs": 3,
+      "total": 8870
+    },
+    {
+      "id": 10,
+      "date": "2026-05-08",
+      "lines": 4,
+      "pairs": 5,
+      "total": 44550
+    }
+  ],
+  "special_characters": [
+    {
+      "file": "Products",
+      "row": 11,
+      "column": 6,
+      "character": "outer_whitespace",
+      "value": "Сапоги женские зимние, нескользящая, устойчивая подошва, натуральный мех. Производитель: Дом обуви «Барбари», г. Новороссийск "
+    },
+    {
+      "file": "Products",
+      "row": 12,
+      "column": 6,
+      "character": "outer_whitespace",
+      "value": "Сапоги женские демисезонные из высококачественной натуральной кожи. Производитель: Дом обуви «Барбари», г. Новороссийск "
+    },
+    {
+      "file": "Products",
+      "row": 18,
+      "column": 4,
+      "character": "NBSP",
+      "value": "Туфли женские натуральная кожа с металлическими вставками"
+    },
+    {
+      "file": "Products",
+      "row": 20,
+      "column": 7,
+      "character": "outer_whitespace",
+      "value": "Верх — 70% кожа, 30% текстиль, подкладка — текстиль, подошва — резина\n"
+    },
+    {
+      "file": "Products",
+      "row": 25,
+      "column": 4,
+      "character": "outer_whitespace",
+      "value": "Кроссовки «Азимут Бег» "
+    },
+    {
+      "file": "Products",
+      "row": 27,
+      "column": 6,
+      "character": "outer_whitespace",
+      "value": "Модель выполнена из натуральной кожи, на резиновой подошве. Производитель: Дом обуви «Барбари», г. Новороссийск "
+    },
+    {
+      "file": "Products",
+      "row": 32,
+      "column": 6,
+      "character": "outer_whitespace",
+      "value": "Выбор на каждый день — натуральная кожа, натуральный мех. Производитель: Дом обуви «Барбари», г. Новороссийск "
+    }
+  ],
+  "user_latin_in_name": [
+    {
+      "row": 3,
+      "name": [
+        "Петров",
+        "Пeтр",
+        "Алексеевич"
+      ]
+    }
+  ],
+  "duplicate_logins": []
+}

@@ -1,0 +1,11 @@
+{
+  "checks_passed": 6,
+  "checks": [
+    "Stage 2 at 900x580: labels wrap within their frame",
+    "Stage 2 at 1200x800: labels wrap within their frame",
+    "Stage 3 at 900x580: labels wrap within their frame",
+    "Stage 3 at 1200x800: labels wrap within their frame",
+    "Stage 4 at 900x580: labels wrap within their frame",
+    "Stage 4 at 1200x800: labels wrap within their frame"
+  ]
+}

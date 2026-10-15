@@ -1,0 +1,2 @@
+Импорт завершён
+{"checks_passed": 57, "database": "chudo_test_9985d04d"}
